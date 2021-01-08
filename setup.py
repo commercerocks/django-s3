@@ -35,7 +35,7 @@ except(IOError, ImportError):
 setup(
     name='real-django-s3',
 
-    version='1.2.8',
+    version='1.2.9',
     description='A simple API for download and upload graphics resources to/from a Amazon S3 bucket',
     long_description=long_description,
 
@@ -81,5 +81,5 @@ setup(
 
     include_package_data=True,
 
-    install_requires=['boto==2.38.0', 'pytest', 'mock', 'django'],
+    install_requires=['boto', 'pytest', 'mock', 'django'],
 )
